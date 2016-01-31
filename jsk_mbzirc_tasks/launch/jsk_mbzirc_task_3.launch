@@ -50,7 +50,7 @@
               'text: m.data' --wait-for-start" />
 
   <group unless="$(arg headless)" >
-    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find jsk_mbzirc_tasks)/config/task1.rviz"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find jsk_mbzirc_tasks)/config/task3.rviz"/>
 
     <group ns="uav1">
       <node pkg="jsk_mbzirc_tasks" type="uav_teleop_keyboard" name="uav_teleop_keyboard"
